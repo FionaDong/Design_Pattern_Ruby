@@ -22,4 +22,10 @@ class CompositeTask < Task
       sum += task.get_time_required
     end
   end
+  #recurrsively get basic task number of composite task.
+  def total_number_basic_tasks
+    @sub_tasks.inject(0) do |sum, task|
+      sum += task.total_number_basic_tasks
+    end
+  end
 end

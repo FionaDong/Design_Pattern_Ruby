@@ -1,5 +1,6 @@
 require_relative 'portfolio'
 require_relative 'account'
+require 'pry'
 
 sgp_account = Account.new 'sgp', 5000
 china_account = Account.new 'china', 10000
@@ -18,6 +19,4 @@ portfolio.add_account japan_account
 # is_it = portfolio.any? {|account| account.balance > 10000}
 
 # puts is_it
-portfolio.accounts.sort!
-
-puts portfolio.accounts[0].name
+puts portfolio.sort

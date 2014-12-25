@@ -1,0 +1,1 @@
+save_button = SlickButton.new(SaveButton.new)

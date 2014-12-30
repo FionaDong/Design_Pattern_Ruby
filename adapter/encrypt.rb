@@ -1,4 +1,4 @@
-
+require 'pry'
 class Encrypter
   def initialize(key)
     @key = key
@@ -8,6 +8,7 @@ class Encrypter
     key_index = 0
     while not reader.eof?
       clear_char = reader.getc
+      binding.pry
       encrypted_char = clear_char.ord ^ @key[key_index].ord
       writer.putc(encrypted_char)
       key_index = (key_index + 1) % @key.size

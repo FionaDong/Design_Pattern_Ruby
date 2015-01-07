@@ -19,8 +19,8 @@ class Employee
   end
 end
 
-#---------------------------
-# Ruby built-in module Observable
+##---------------------------
+## Ruby built-in module Observable
 # require 'observer'
 
 # class Employee
@@ -40,8 +40,8 @@ end
 #   end
 # end
 
-#---------------------------
-# block as observer
+##---------------------------
+## block as observer
 # require_relative 'subject'
 # class Employee
 #   include Subject

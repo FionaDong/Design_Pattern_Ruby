@@ -19,8 +19,8 @@ module Subject
   end
 end
 
-#------------------------------------
-# block as observer
+##------------------------------------
+## block as observer
 # module Subject
   
 #   def initialize

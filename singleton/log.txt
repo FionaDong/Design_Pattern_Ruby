@@ -1,0 +1,6 @@
+this is a class based logger error.
+this is a line of error.
+this is a class based logger error.
+this is a line of error.
+this is a class based logger error.
+this is a module based logger error.

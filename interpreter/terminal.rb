@@ -8,8 +8,9 @@ class Expression
     @result =[]
   end
 
-  def evaluate
+  def evaluate(dir)
   end
+
 end
 
 class ALL < Expression
@@ -63,3 +64,4 @@ class Writable < Expression
     @result    
   end
 end
+

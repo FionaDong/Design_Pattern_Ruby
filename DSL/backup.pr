@@ -1,0 +1,19 @@
+def backup(dir, find_expression=ALL.new)
+  puts "Backup called, source dir=#{dir} find expr=#{find_expression}"
+end
+
+def to(backup_directory)
+  puts "To called, backup dir=#{backup_directory}"
+end
+
+def interval(minutes)
+  puts "Interval called, interval = #{minutes} minutes"
+end
+
+def file_name(pattern)
+  FileName.new(pattern)
+end
+
+def except(expression)
+  Not.new(expression)
+end
